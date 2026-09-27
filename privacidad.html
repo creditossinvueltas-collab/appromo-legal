@@ -73,6 +73,7 @@ sobre tus medios de pago.</p>
 <tr><td>Si querés recibir avisos, y un identificador de tu teléfono para mandártelos</td><td>Mandarte las notificaciones</td><td>No</td></tr>
 <tr><td>Qué promociones viste, tocaste, guardaste o compartiste</td><td>Saber qué promos sirven y cuáles no, para mejorar lo que mostramos</td><td>No se puede desactivar por separado</td></tr>
 <tr><td>Si preferís el modo claro u oscuro</td><td>Que la app se vea como querés</td><td>No</td></tr>
+<tr><td><strong>Tu ubicación aproximada</strong>, redondeada</td><td>Avisarte de promociones a menos de 30 km, en el aviso "Promos de mañana". Ver el detalle más abajo</td><td>No</td></tr>
 <tr><td>Los errores que se producen en la app</td><td>Arreglarlos. Guardamos el mensaje técnico, en qué pantalla pasó, la versión de la app y el sistema del teléfono</td><td>No se puede desactivar</td></tr>
 </tbody>
 </table>
@@ -82,17 +83,42 @@ sobre tus medios de pago.</p>
 <h2>Qué NO guardamos</h2>
 
 <ul>
-<li><strong>Tu ubicación.</strong> La app puede avisarte si estás cerca de un comercio con
-una promo tuya. Para eso mira dónde estás <em>mientras tenés la app abierta</em> y compara
-con los comercios, <strong>todo dentro de tu teléfono</strong>. Esa ubicación no se manda a
-ningún servidor ni queda guardada en ninguna parte. Si no le das permiso de ubicación, la
-app funciona igual: solo no te avisa de eso.</li>
+<li><strong>Tu ubicación exacta.</strong> Nunca guardamos tu dirección ni tus
+recorridos, y nunca miramos dónde estás con la app cerrada.</li>
+<li><strong>La ubicación del aviso "estás cerca".</strong> Mientras tenés la app abierta,
+puede avisarte si estás a menos de 1 km de un comercio con una promo tuya. Esa comparación
+ocurre <strong>entera dentro de tu teléfono</strong>: esa ubicación no se manda a ningún
+servidor ni queda guardada en ninguna parte.</li>
 <li><strong>Fotos ni video.</strong> La cámara se usa únicamente para leer códigos QR en el
 momento. No se guarda ni se envía ninguna imagen.</li>
 <li><strong>Datos financieros.</strong> Ni números de tarjeta, ni CBU, ni claves, ni saldos,
 ni consumos.</li>
 <li><strong>Tus contactos, tus archivos ni el micrófono.</strong></li>
 </ul>
+
+<h2>La ubicación, en detalle</h2>
+
+<p>Es lo más delicado que maneja la app, así que lo explicamos aparte.</p>
+
+<p>APPROMO usa tu ubicación de dos maneras distintas, y solo una se guarda:</p>
+
+<h3>1. "Estás cerca de un comercio con promo" — no se guarda</h3>
+<p>Mientras tenés la app abierta, compara dónde estás con los comercios que tienen promos
+para vos. Todo eso pasa dentro de tu teléfono. Nada se envía ni se almacena.</p>
+
+<h3>2. "Promos de mañana" — se guarda, redondeada</h3>
+<p>Si activás ese aviso, guardamos tu ubicación <strong>redondeada</strong>, de modo que
+queda con una precisión de alrededor de un kilómetro: sirve para saber en qué zona estás,
+no en qué dirección vivís. La usamos para avisarte de promociones a menos de 30 km.</p>
+<ul>
+<li>Se actualiza <strong>como mucho una vez cada 6 horas</strong>.</li>
+<li>Solo si ya le diste permiso de ubicación a la app. Para esto nunca te lo pedimos aparte.</li>
+<li><strong>Nunca con la app cerrada.</strong> APPROMO no usa ubicación en segundo plano.</li>
+<li>Si apagás "Promos de mañana" desde tu perfil, <strong>la ubicación guardada se borra en
+ese mismo momento</strong>.</li>
+</ul>
+<p>Si nunca activás ese aviso, o no le das permiso de ubicación a la app, no guardamos
+ninguna ubicación tuya. La app funciona igual.</p>
 
 <h2>Con quién compartimos tus datos</h2>
 
