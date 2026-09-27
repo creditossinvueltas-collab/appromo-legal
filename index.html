@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>APPROMO · Información legal</title>
+<style>
+  :root{--fondo:#ffffff;--texto:#1a1d21;--tenue:#5b6470;--linea:#e4e7eb;--acento:#047857}
+  @media (prefers-color-scheme: dark){
+    :root{--fondo:#0f1115;--texto:#e8eaed;--tenue:#9aa3af;--linea:#262b33;--acento:#34d399}
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--fondo);color:var(--texto);
+       font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+       padding:0 16px;display:flex;min-height:100vh;align-items:center;justify-content:center}
+  main{max-width:520px;width:100%;padding:40px 0}
+  h1{font-size:30px;margin:0 0 6px}
+  p{color:var(--tenue);margin:0 0 28px}
+  a.tarjeta{display:block;border:1px solid var(--linea);border-radius:12px;padding:18px 20px;
+            margin-bottom:12px;text-decoration:none;color:var(--texto)}
+  a.tarjeta strong{display:block;color:var(--acento);font-size:17px;margin-bottom:3px}
+  a.tarjeta span{color:var(--tenue);font-size:14px}
+  footer{margin-top:28px;color:var(--tenue);font-size:14px}
+  footer a{color:var(--acento)}
+</style>
+</head>
+<body>
+<main>
+  <h1>APPROMO</h1>
+  <p>Todas las promos de tus tarjetas y billeteras, en un solo lugar.</p>
+
+  <a class="tarjeta" href="privacidad.html">
+    <strong>Política de privacidad</strong>
+    <span>Qué datos guardamos, para qué, y cómo borrarlos</span>
+  </a>
+  <a class="tarjeta" href="terminos.html">
+    <strong>Términos y condiciones</strong>
+    <span>Las reglas de uso de la aplicación</span>
+  </a>
+
+  <footer>
+    APPROMO es una aplicación independiente: no pertenece a ningún banco, billetera ni
+    comercio.<br><br>
+    <a href="mailto:creditossinvueltas@gmail.com">creditossinvueltas@gmail.com</a>
+  </footer>
+</main>
+</body>
+</html>
