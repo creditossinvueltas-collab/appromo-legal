@@ -1,2 +1,2 @@
 # appromo-legal
-Politica de privacidad y terminos y condiciones de APROMO
+Política de privacidad y términos y condiciones de PROMOTOPIA
